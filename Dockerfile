@@ -28,7 +28,7 @@ RUN { \
         echo 'xdebug.profiler_enable=off'; \
         echo 'xdebug.profiler_output_dir="/var/www/html"'; \
         echo 'xdebug.remote_port=9001'; \
-        echo 'xdebug.remote_host=100.254.254.254'; \
+        echo 'xdebug.remote_host=172.254.254.254'; \
     } > /usr/local/etc/php/conf.d/xdebug.ini
 
 # add the application to the container outside of the web root
